@@ -1,0 +1,43 @@
+:root { --tab-h: 20px; }
+
+#header,
+#tabs-tabbar-container,
+#tabs-container,
+#tabs-container .resize,
+#tabs-container .tab-strip,
+#header .toolbar,
+#header .toolbar-tabbar,
+#header .sync-and-trash-container,
+#tabs-container .tab-position,
+#tabs-container .tab,
+#tabs-container .tab-header,
+#tabs-container .newtab
+{
+  height: var(--tab-h) !important;
+  min-height: var(--tab-h) !important;
+  max-height: var(--tab-h) !important;
+}
+
+#header .vivaldi
+{
+  width: var(--tab-h) !important;
+  min-width: var(--tab-h) !important;
+  height: var(--tab-h) !important;
+  min-height: var(--tab-h) !important;
+  max-height: var(--tab-h) !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#browser .vivaldi img
+{
+  width: 20px !important;
+  height: 12px !important;
+  font-size: 12px !important;
+}
+
+/* Iconos SVG de navegación y barra URL */
+.button-toolbar svg {
+    width: 20px !important;
+    height: 20px !important;
+}

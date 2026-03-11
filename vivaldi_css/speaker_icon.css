@@ -1,0 +1,22 @@
+/* contenedor del icono de audio */
+#tabs-container .tab-audio{
+    width: 20px !important;
+    height: 20px !important;
+    min-width: 20px !important;
+    min-height: 20px !important;
+    
+
+    display:flex !important;
+    align-items:center !important;
+    justify-content:center !important;
+
+    margin:0 !important;
+    padding:0 !important;
+    padding-left: 10px !important;
+}
+
+/* icono real */
+#tabs-container .audioicon{
+    width:25px !important;
+    height:25px !important;
+}

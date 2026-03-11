@@ -1,0 +1,51 @@
+/* Iconos SVG de navegación y barra URL */
+.toolbar-mainbar svg{
+    width: 22px !important;
+    height: 22px !important;
+}
+
+/* ===== CONTENEDOR DE LA BARRA DE URL ===== */
+.mainbar,
+.toolbar-mainbar,
+.UrlBar,
+.toolbar-addressbar {
+    height: 25px !important;
+    min-height: 25px !important;
+    max-height: 25px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.toolbar > .button-textonly {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+
+.SiteInfoButton.internal img, .SiteInfoButton.internal[disabled] img, .SiteInfoButton.internal svg, .SiteInfoButton.internal[disabled] svg {
+    opacity: 1;
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.mainbar .toolbar-mainbar.update {
+    /* justify-content: flex-end; */
+    height: 5px !important;
+    min-height: 5px !important;
+}
+
+#browser.linux .window-buttongroup {
+    top: 0px !important;
+}
+
+
+.toolbar-mainbar .drag-area > .button-toolbar > button, .toolbar-mainbar .toolbar-extensions > .button-toolbar > button, .toolbar-mainbar .page-zoom-controls > .button-toolbar > button, .toolbar-mainbar > .button-toolbar > button, .toolbar-mainbar .drag-area > .toolbar-group > .button-toolbar > button, .toolbar-mainbar .toolbar-extensions > .toolbar-group > .button-toolbar > button, .toolbar-mainbar .page-zoom-controls > .toolbar-group > .button-toolbar > button, .toolbar-mainbar > .toolbar-group > .button-toolbar > button {
+    border: 0;
+    border-radius: 0;
+    min-width: 34px;
+    color: inherit;
+    padding: 0;
+    height: 20px;
+}

@@ -1,0 +1,22 @@
+/* ===== CONTROLES DE VENTANA (minimizar, maximizar, cerrar) ===== */
+#browser .window-buttongroup {
+    height: 20px !important;
+    min-height: 20px !important;
+    max-height: 20px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* ===== AJUSTE EXTRA SOLO EN VENTANA NORMAL ===== */
+#browser.normal #tabs-tabbar-container,
+#browser.maximized #tabs-tabbar-container{
+    height: 20px !important;
+    min-height: 20px !important;
+    max-height: 20px !important;
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
