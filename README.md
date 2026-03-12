@@ -70,4 +70,4 @@ If you use the Flatpak version of Vivaldi, place the CSS folder inside:
 /home/<user>/.var/app/com.vivaldi.Vivaldi/config/<css_folder>
 ```
 
-This ensures the modifications persist.
+Copy and paste the path directly on "Custom UI Modification". This ensures the modifications persist.
