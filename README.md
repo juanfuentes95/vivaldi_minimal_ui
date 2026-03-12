@@ -1,6 +1,8 @@
 # Vivaldi Minimal UI
 
-Minimal CSS configuration for a **clean and compact** Vivaldi interface.
+Minimal CSS configuration for a **clean and compact** Vivaldi toolbar interface.
+
+<img width="1172" height="795" alt="image" src="https://github.com/user-attachments/assets/30b3183b-8728-44e1-82ee-8f33bc57e634" />
 
 ---
 
